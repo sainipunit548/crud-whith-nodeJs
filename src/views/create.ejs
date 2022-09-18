@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  
+<div class="container">
+  <form action="/insert_data" method="POST" enctype="multipart/form-data">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="name" placeholder="Enter Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="email" placeholder="Enter Your email..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Phone No.</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="phone" name="phone" placeholder="Enter Your Phone No..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="Image">Image</label>
+      </div>
+      <div class="col-75">
+        <input type="file" id="image" name="image" multiple>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Address</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="address" placeholder="Enter Your Full Address.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+</body>
+</html>
