@@ -6,7 +6,7 @@ const port = "7000";
 const app = express()
 
 require("./db/conn");
-app.set("view engine", "ejs");
+app.set("view engine", "hbs");
 
 
 const view_file_path = path.join(__dirname, 'views');
