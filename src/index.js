@@ -2,7 +2,7 @@ const express = require("express");
 const ejs = require("ejs");
 const path = require("path");
 
-const port = "7000";
+const port = process.env.PORT || 7000;
 const app = express()
 
 require("./db/conn");
